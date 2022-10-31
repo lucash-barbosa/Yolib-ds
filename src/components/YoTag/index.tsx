@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 export interface YoTagProps {
-  text: string,
+  text: string
 }
 
 const Wrapper = styled.div`

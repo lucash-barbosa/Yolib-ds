@@ -41,8 +41,8 @@ const StyledLabel = styled.label`
 `;
 
 export interface YoAmountInputProps {
-    onChange?: (value:number) => void,
-    label: string,
+    onChange?: (value:number) => void
+    label: string
 }
 
 export const YoAmountInput = ({ onChange, label } : YoAmountInputProps) => {

@@ -35,10 +35,10 @@ const StyledSection = styled.section<{ selected: boolean }>`
 `;
 
 export interface YoOptionGroup {
-  id: number,
-  title: string,
-  body: string,
-  footer: string,
+  id: number
+  title: string
+  body: string
+  footer: string
 }
 
 export interface YoOptionsGroupProps {

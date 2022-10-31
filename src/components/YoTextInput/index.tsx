@@ -2,12 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 export interface YoTextInputProps {
-  name: string,
-  placeholder?: string,
-  type?: "text" | "email" | "password" | "date",
-  label?: string,
-  value: string;
-  onChange: (value: string) => void,
+  name: string
+  placeholder?: string
+  type?: "text" | "email" | "password" | "date"
+  label?: string
+  value: string
+  onChange: (value: string) => void
 }
 
 const StyledInput = styled.input`
