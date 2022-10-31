@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "yolib-ds",
+  "name": "yolib_ds",
   "author": "vinicios neves",
   "module": "dist/alurabooks-ds.esm.js",
   "size-limit": [
